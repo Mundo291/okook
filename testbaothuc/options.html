@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <a  href="menu.html" class="button">Quay lại</a>
+    <body >
+    <style>   		
+        a.button {
+            -webkit-appearance: button;
+            -moz-appearance: button;
+            appearance: button;
+            width: 20%;
+            border: 1px solid #696969;
+            padding: 4px;
+            background-color:#E9E7E7;
+            text-decoration: none;
+            color: black;
+            text-align: center;
+            font-weight: bold;
+
+        }
+</style>
+    </body>
+
+    <title>Options for Lightweight Alarm Clock &amp; Timer</title>
+    <script src="options.js"></script>
+  </head>
+  <body style="font:12px arial,helvetica,sans-serif">
+    <strong></strong><br />
+    <input type="checkbox" id="notify"><label for="notify">Hiển thị thông báo trên màn hình</label><br>
+    <input type="checkbox" id="beep"><label for="beep">Phát âm thanh báo thức </label><br><br>
+    <strong>Chọn âm thanh</strong><br />
+    <select id="alarmSound">
+      <option value="cuckoo.ogg">Cuckoo</option>
+      <option value="digital.ogg">Digital</option>
+      <option value="forest.ogg">Forest</option>
+      <option value="grandfather.ogg">Grandfather</option>
+      <option value="groove.ogg">Groove</option>
+      <option value="metal.ogg">Metal</option>
+      <option value="ringing.ogg">Ringing</option>
+      <option value="rooster.ogg">Rooster</option>
+    </select> <img id="playImg" style="vertical-align:bottom" src="play-24.png" width="24" height="24" /><br /><br /><br />
+	<button id="saveButton">Lưu cài đặt</button> <span style="color:red" id="saveMsg"></span>
+
+    <div style="background-color:#blue;width:230px;padding:1px;border-radius:3px;margin-top:40px">
+    <a href="https://www.facebook.com/ooedin.oo" target="_blank" class="fa fa-facebook" > Liện hệ với tôi<a>
+     
+      </a>
+    </center>
+    </div>
+  </body>
+</html>
